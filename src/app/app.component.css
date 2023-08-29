@@ -2,12 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .filter {
-  width: 14rem;
+  width: 14em;
 }
 
 .card-display {
@@ -15,18 +15,18 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 2em;
   margin: 2rem;
 }
 
 .card {
   background-color: beige;
-  width: 14rem;
+  width: 14em;
 }
 
 img {
-  height: 14rem;
-  width: 14rem;
+  height: 14em;
+  width: 14em;
   object-fit: cover;
 }
 
@@ -39,16 +39,16 @@ img {
   }
 
   .card {
-    width: 18rem;
+    width: 18em;
   }
 
   img {
-    height: 12rem;
-    width: 12rem;
+    height: 12em;
+    width: 12em;
     object-fit: cover;
     display: block;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 2em;
+    margin-bottom: 2em;
     margin-left: auto;
     margin-right: auto;
   }

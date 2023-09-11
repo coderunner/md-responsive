@@ -1,14 +1,15 @@
 <div>
-  <div class="filter-bar">
-    <mat-form-field appearance="fill" class="filter">
+  <div class="toolbar">
+    <h1 class="toolbar-title">Catalogue</h1>
+    <mat-form-field appearance="fill" class="toolbar-filter">
       <mat-label>Filtre produit</mat-label>
       <input matInput placeholder="Placeholder" [formControl]="filterControl" />
       <mat-hint>Entrer le nom du produit</mat-hint>
     </mat-form-field>
   </div>
 
-  <div class="card-display">
-    <mat-card class="card" *ngFor="let d of filteredProducts">
+  <div class="catalog">
+    <mat-card class="catalog-card" *ngFor="let d of filteredProducts">
       <mat-card-header>
         <mat-card-title>{{ d.title }}</mat-card-title>
       </mat-card-header>
@@ -16,7 +17,7 @@
       <mat-card-content>
         <p>{{ d.content }}</p>
       </mat-card-content>
-      <mat-card-actions>
+      <mat-card-actions class="catalog-card-action">
         <button mat-button>J'aime</button>
       </mat-card-actions>
     </mat-card>

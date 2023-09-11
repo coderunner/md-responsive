@@ -2,5 +2,5 @@
 
 ```
 npm install
-ng server
+ng serve
 ```
